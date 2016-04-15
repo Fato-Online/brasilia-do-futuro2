@@ -15,7 +15,7 @@ $(document).ready(function(){
 		mouseleave:function(){
 			$(this).stop();
 			$("p",this).hide("fast");
-			$(this).animate({width:30}, 1000,"easeInOutQuint")
+			$(this).animate({width:30}, 500,"linear")
 		}
 	})
 
