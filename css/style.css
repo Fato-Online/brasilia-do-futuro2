@@ -122,7 +122,7 @@ div.parallax-container {
 
 /*HEROIS*/
 .escudo-herois{
-  background-image: url('../images/herois.png');
+  background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/herois.png');
   background-position: 10% 40%;
   background-size: 40%;
   width: 100%;
