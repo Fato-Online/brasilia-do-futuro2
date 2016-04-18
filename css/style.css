@@ -96,6 +96,8 @@ div.parallax-container {
 	background-repeat: no-repeat;
 }
 
+/*SMARTPHONE*/
+
 #startups .parallax3{
 	background-position: 0% 200px;
 }
@@ -116,6 +118,25 @@ div.parallax-container {
 	height: 100%;
 	background-repeat: no-repeat;
 	bottom: -500px;
+}
+
+/*HEROIS*/
+.escudo-herois{
+	background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/herois.png');
+	background-position: 10% 40%;
+	background-size: 40%;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	bottom: -500px;
+}
+
+#herois .parallax3{
+	background-position: 0% 200px;
+}
+
+#herois .text-page{
+	padding-top: 100px;
 }
 
 .text-page{
@@ -288,17 +309,28 @@ div.parallax-container {
 .aviso{
 	display: none;
 	background: rgba(0, 0, 0, 0.9);
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: 999;
-	padding: 15% 0px;
+	padding: 15px 0px 0px 0px;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-weight:  300;
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#aviso-cont{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.aviso img{
+	width: 10%;
+	margin:  0 auto;
 }
 
 .aviso p{
@@ -306,26 +338,70 @@ div.parallax-container {
 }
 
 
-/*TABLET*/
+/*TABLET PAISAGEM*/
 @media (max-width: 991px) {
 
 }
 
-/*CELULAR PAISAGEM*/
+/*TABLET RETRATO*/
 @media (max-width: 768px) {
+	html{
+		overflow-x: hidden;
+	}
+
+	body, html{
+		height: 100%;
+		background-color: #000 !important;
+		background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/background-home.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.parallax2, .parallax3{
+		display: none;
+	}
+
 	.aviso{
 		display: block;
+	}
+
+	.aviso img{
+		width: 100%;
+		margin:  0 auto;
+	}
+}
+
+/*CELULAR PAISAGEM*/
+@media (max-width: 767px) {
+	html{
+		overflow-x: hidden;
+	}
+	body, html{
+		height: 100%;
+		background-color: #000 !important;
+		background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/background-home.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+
+	.parallax2, .parallax3{
+		display: none;
+	}
+
+	.aviso{
+		display: block;
+	}
+
+	.aviso img{
+		width: 40%;
+		margin:  0 auto;
 	}
 }
 
 /*CELULAR RETRATO*/
 @media (max-width: 479px) {
-	body, html{
-		height: 100%;
-		background-color: #000 !important;
-		overflow: visible;
-	}
-
 	.aviso{
 		display: none;
 	}
@@ -379,7 +455,7 @@ div.parallax-container {
 
 	/*PAGES*/
 	.parallax1 {
-		background-position: 50% 60%;
+		background-position: 50% 90%;
 		background-size: 70%;
 		background-repeat: no-repeat;
 		width: 100%;
@@ -397,7 +473,7 @@ div.parallax-container {
 	}
 	.parallax3 {
 		position: absolute;
-		background-position: 30% 30%;
+		background-position: 0% 40%;
 		background-size: 100%;
 		width: 100%;
 		height: 100%;
@@ -418,6 +494,20 @@ div.parallax-container {
 		background-size: 80%;
 		background-repeat: no-repeat;
 		bottom: -500px;
+	}
+
+	/*HEROIS*/
+	.escudo-herois{
+		background-position: 50% 25%;
+		background-size: 100%;
+	}
+
+	#herois .parallax3{
+		background-position: 0% 200px;
+	}
+
+	#herois .text-page{
+		padding-top: 400px;
 	}
 
 	.text-page h1{
