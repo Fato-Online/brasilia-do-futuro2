@@ -207,6 +207,14 @@ div.parallax-container {
 	background: #262626;
 }
 
+.btn-ativo{
+	background: orange;
+}
+
+.btn-ativo:hover{
+	background: #c68000;
+}
+
 /* MENU */
 .hamburger-menu{
 	width: 60px;
@@ -380,7 +388,6 @@ div.parallax-container {
 	body, html{
 		height: 100%;
 		background-color: #000 !important;
-		background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/background-home.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		overflow: hidden;
@@ -402,8 +409,16 @@ div.parallax-container {
 
 /*CELULAR RETRATO*/
 @media (max-width: 479px) {
+	body, html{
+		overflow: visible;
+	}
+
 	.aviso{
 		display: none;
+	}
+
+	.parallax2, .parallax3{
+		display: block;
 	}
 
 	.btn-access {

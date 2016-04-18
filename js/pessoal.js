@@ -28,7 +28,7 @@ $(document).ready(function(){
 
   $('.btn-access').click(function(event) {
     $("body,html").animate({
-      scrollTop: $("#startups").offset().top
+      scrollTop: $("#herois").offset().top
     }, 2000,"easeInOutQuint");
   });
 
