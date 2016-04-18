@@ -345,6 +345,10 @@ div.parallax-container {
 
 /*TABLET RETRATO*/
 @media (max-width: 768px) {
+	html{
+		overflow-x: hidden;
+	}
+
 	body, html{
 		height: 100%;
 		background-color: #000 !important;
@@ -370,6 +374,9 @@ div.parallax-container {
 
 /*CELULAR PAISAGEM*/
 @media (max-width: 767px) {
+	html{
+		overflow-x: hidden;
+	}
 	body, html{
 		height: 100%;
 		background-color: #000 !important;
@@ -395,7 +402,6 @@ div.parallax-container {
 
 /*CELULAR RETRATO*/
 @media (max-width: 479px) {
-
 	.aviso{
 		display: none;
 	}
