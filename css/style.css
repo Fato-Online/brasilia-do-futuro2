@@ -46,6 +46,21 @@ body, html{
 	text-transform: uppercase;
 }
 
+.btn-facebook {
+	position: relative;
+	display: block !important;
+	margin: 0 auto 0 auto;
+	top: 250px;
+	z-index: 998;
+	width: 200px;
+	height: 45px;
+	padding: 10px !important;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 div.parallax-container {
 	position: absolute;
 	width: 100%;
@@ -207,7 +222,6 @@ div.parallax-container {
 	background: #262626;
 }
 
-/*Cor botao*/
 .btn-ativo{
 	background: orange;
 }
