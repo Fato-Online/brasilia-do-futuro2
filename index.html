@@ -64,7 +64,7 @@
     }( document ,  'script' ,  'facebook-jssdk' )); 
 </script>
 <!--************  Fim Script Facebook  ****************-->
-
+  
 
 <!-- ********************* Inicio Login Facebook ********************* -->
 <script>
@@ -90,6 +90,7 @@
         'into Facebook.';
     }
   }
+
   // This function is called when someone finishes with the Login
   // Button.  See the onlogin handler attached to it in the sample
   // code below.
@@ -161,25 +162,11 @@ FB.api('/me',
 			<div id="title"></div>
 		</div>
 
+        <!-- Botao login e Logoff -->
+		<div class="btn-facebook"> <fb:login-button autologoutlink="true" onlogin = ' window . location = "http://localhost/brasilia-do-futuro/" ' ></fb:login-button><p><br><img id="photo"></img></p> </div>
+			
 
-
-
-
- 
- 				<!-- Div que exibe informacoes do usuario -->
-<!-- <div><b><span style="color:#F4F409">Photo:</b> <img id="photo"></img></div>
-<div id="name"><b><span style="color:#F4F409">Nome:</b> </div>
-<div id="first_name"><b><span style="color:#F4F409">Primeiro nome:</b> </div>
-<div id="email"><b><span style="color:#F4F409">Email:</b> </div>
-<div id="user-id"><b><span style="color:#F4F409">ID do usuario:</b> </div>
-<div id="gender"><b><span style="color:#F4F409">Genero:</b> </div>
-<div id="link"><b><span style="color:#F4F409">Link:</b> </div>
-<div id="timezone"><b><span style="color:#F4F409">Timezone:</b> </div> -->
-
-<!-- ********************* Final Codigo Login Facebook ********************* -->
-
-                                                        <!-- Botao login e Logoff -->
-		<div class="btn-facebook"> <fb:login-button autologoutlink="true"></fb:login-button><p><br><img id="photo"></img></p> </div>
+			<!-- <fb:login-button onlogin = ' window . location = "http://localhost/brasilia-do-futuro/" ; ' > Connect Facebook -->
 
 		<div class="btn-access btn btn-success">Entre</div>
 			<div class="parallax parallax1 anima-01"></div>
