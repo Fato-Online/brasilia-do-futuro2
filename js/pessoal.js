@@ -78,6 +78,14 @@ $(document).ready(function(){
     });
   };
 
+  $(document).on('keyup',function(evt) {
+    if (evt.keyCode == 27) {
+       $(".sections").animate({"right":"-50%"}, 1000,"easeInOutQuint",function(){
+        $(".conteudo-section").css('display', 'none');
+      })
+    }
+  });
+
   //STARTUP
   $("#startups .menu-interno li").click(function(event) {
     if ($(window).width()<479) {
