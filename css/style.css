@@ -152,7 +152,7 @@ div.parallax-container {
 
 /*ATLETAS*/
 .trofeu-atletas{
-	background-image: url('../images/trophy.png');
+	background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro/master/images/trophy.png');
 	background-position: 10% 40%;
 	background-size: 40%;
 	width: 100%;
