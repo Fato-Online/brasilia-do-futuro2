@@ -226,7 +226,7 @@ $(document).ready(function(){
 	});
 
 	// GALERIA
-		Galleria.loadTheme('js/themes/classic/galleria.classic.min.js');
+		Galleria.loadTheme('https://rawgit.com/fatoonline/carnaval-2016/master/themes/classic/galleria.classic.min.js');
 
 		//FOTOS
 		var fotos = [
