@@ -637,6 +637,21 @@ div.parallax-container {
 		padding-top: 400px;
 	}
 
+	/*PERSONAGENS*/
+	.computador-personagens{
+		background-position: 50% 25%;
+		background-size: 100%;
+	}
+
+	#personagens .parallax3{
+		background-position: 0% 200px;
+	}
+
+	#personagens .text-page{
+		padding-top: 400px;
+	}
+
+
 	.text-page h1{
 		text-transform: uppercase;
 		font-family: 'Open Sans', sans-serif;
