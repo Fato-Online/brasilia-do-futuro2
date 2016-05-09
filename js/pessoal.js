@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 	$('.btn-access').click(function(event) {
 		$("body,html").animate({
-			scrollTop: $("#personagens").offset().top
+			scrollTop: $("#turismo").offset().top
 		}, 2000,"easeInOutQuint");
 	});
 
@@ -48,6 +48,12 @@ $(document).ready(function(){
 	$('#proximo-03').click(function(event) {
 		$("body,html").animate({
 			scrollTop: $("#personagens").offset().top
+		}, 2000,"easeInOutQuint");
+	});
+
+	$('#proximo-04').click(function(event) {
+		$("body,html").animate({
+			scrollTop: $("#turismo").offset().top
 		}, 2000,"easeInOutQuint");
 	});
 
@@ -216,19 +222,29 @@ $(document).ready(function(){
 		},1000);
 	});
 
-	$("#personagens-03").click(function(event) {
-		setTimeout(function(){
-			$("#personagens-cont-03").slideDown(400);
-		},1000);
+	// TURISMO
+	$("#turismo .menu-interno li").click(function(event) {
+		if ($(window).width()<479) {
+
+		} else{
+			$("body,html").animate({
+					scrollTop: $("#turismo").offset().top
+				}, 1000,"easeInOutQuint");
+		};
 	});
 
-		$("#personagens-03").one( 'click', function(event) {
-			setTimeout(function(){
-				$('.bxslider').bxSlider({
-							adaptiveHeight: true
-						});
-			},2000)
-		});
+	$("#turismo-01").click(function(event) {
+		setTimeout(function(){
+			$("#turismo-cont-01").slideDown(400);
+		},1000);
+	});
+	$("#turismo-01").one( 'click', function(event) {
+		setTimeout(function(){
+			$('.bxslider').bxSlider({
+						adaptiveHeight: true
+					});
+		},2000)
+	});
 
 	// GALERIA
 		//FOTOS
