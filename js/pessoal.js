@@ -220,13 +220,15 @@ $(document).ready(function(){
 		setTimeout(function(){
 			$("#personagens-cont-03").slideDown(400,function(){
 				centroOlimpico();
-				Galleria.run('.galleria');
+				$('.bxslider').bxSlider({
+					adaptiveHeight: true,
+					 auto: true
+				});
 			});
 		},1000);
 	});
 
 	// GALERIA
-		Galleria.loadTheme('https://rawgit.com/fatoonline/carnaval-2016/master/themes/classic/galleria.classic.min.js');
 
 		//FOTOS
 		var fotos = [
@@ -253,8 +255,8 @@ $(document).ready(function(){
 
 		var imgs = '';
 		for( foto in fotos) {
-				imgs += "<img src=" + fotos[foto] + ">";
+				imgs += "<li>"+ "<img src=" + fotos[foto] + ">" + "</li>";
 		}
 
-		$(".galleria").html(imgs);
+		$(".bxslider").html(imgs);
 });
