@@ -249,25 +249,25 @@ $(document).ready(function(){
 	// GALERIA
 		//FOTOS
 		var fotos = [
-         		"photo/01.jpg",
-         		"photo/02.jpg",
-         		"photo/03.jpg",
-         		"photo/04.jpg",
-         		"photo/05.jpg",
-         		"photo/06.jpg",
-         		"photo/07.jpg",
-         		"photo/08.jpg",
-         		"photo/09.jpg",
-         		"photo/10.jpg",
-         		"photo/11.jpg",
-         		"photo/12.jpg",
-         		"photo/13.jpg",
-         		"photo/14.jpg",
-         		"photo/15.jpg",
-         		"photo/16.jpg",
-         		"photo/17.jpg",
-         		"photo/18.jpg",
-         		"photo/19.jpg"
+         		"images/photo/01.jpg",
+         		"images/photo/02.jpg",
+         		"images/photo/03.jpg",
+         		"images/photo/04.jpg",
+         		"images/photo/05.jpg",
+         		"images/photo/06.jpg",
+         		"images/photo/07.jpg",
+         		"images/photo/08.jpg",
+         		"images/photo/09.jpg",
+         		"images/photo/10.jpg",
+         		"images/photo/11.jpg",
+         		"images/photo/12.jpg",
+         		"images/photo/13.jpg",
+         		"images/photo/14.jpg",
+         		"images/photo/15.jpg",
+         		"images/photo/16.jpg",
+         		"images/photo/17.jpg",
+         		"images/photo/18.jpg",
+         		"images/photo/19.jpg"
 		]
 
 		var imgs = '';
