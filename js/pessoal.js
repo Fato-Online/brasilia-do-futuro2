@@ -218,18 +218,19 @@ $(document).ready(function(){
 
 	$("#personagens-03").click(function(event) {
 		setTimeout(function(){
-			$("#personagens-cont-03").slideDown(400,function(){
-				centroOlimpico();
-				$('.bxslider').bxSlider({
-					adaptiveHeight: true,
-					 auto: true
-				});
-			});
+			$("#personagens-cont-03").slideDown(400);
 		},1000);
 	});
 
-	// GALERIA
+		$("#personagens-03").one( 'click', function(event) {
+			setTimeout(function(){
+				$('.bxslider').bxSlider({
+							adaptiveHeight: true
+						});
+			},2000)
+		});
 
+	// GALERIA
 		//FOTOS
 		var fotos = [
          		"photo/01.jpg",
