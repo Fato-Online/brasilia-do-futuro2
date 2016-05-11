@@ -248,7 +248,9 @@ $(document).ready(function(){
 
 	$("#turismo-02").click(function(event) {
 		setTimeout(function(){
-			$("#turismo-cont-02").slideDown(400);
+			$("#turismo-cont-02").slideDown(400, function(){
+				mapaTurismoBike();
+			});
 		},1000);
 	});
 	$("#turismo-02").one( 'click', function(event) {
