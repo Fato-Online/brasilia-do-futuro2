@@ -246,6 +246,19 @@ $(document).ready(function(){
 		},2000)
 	});
 
+	$("#turismo-02").click(function(event) {
+		setTimeout(function(){
+			$("#turismo-cont-02").slideDown(400);
+		},1000);
+	});
+	$("#turismo-02").one( 'click', function(event) {
+		setTimeout(function(){
+			$('.galeriaBike').bxSlider({
+						adaptiveHeight: true
+					});
+		},2000)
+	});
+
 	// GALERIA
 		//FOTOS
 		var fotos = [
@@ -276,4 +289,19 @@ $(document).ready(function(){
 		}
 
 		$(".bxslider").html(imgs);
+
+		//BIKES
+		var fotosBike = [
+			"images/photo/01bike.jpg",
+			"images/photo/02bike.jpg",
+			"images/photo/03bike.jpg",
+			"images/photo/04bike.jpg",
+			"images/photo/05bike.jpg"
+		]
+
+		var imgsBikes = '';
+		for(fotoBike in fotosBike){
+			imgsBikes += "<li>"+ "<img src=" + fotosBike[fotoBike] + ">" + "</li>";
+		}
+		$(".galeriaBike").html(imgsBikes);
 });

@@ -245,7 +245,7 @@ div.parallax-container {
 .sections{
 	background: white;
 	right: -50%;
-	position: absolute !important;
+	position: fixed !important;
 	z-index: 999;
 	height: 100%;
 	padding: 50px 55px !important;
