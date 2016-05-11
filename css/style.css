@@ -209,7 +209,7 @@ div.parallax-container {
 
 /*JOVEM*/
 .jovem-brasilia{
-	background-image: url('../images/jovem-bsb.png');
+	background-image: url('https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/jovem-bsb.png');
 	background-position: 10% 0%;
 	background-size: 40%;
 	width: 100%;
