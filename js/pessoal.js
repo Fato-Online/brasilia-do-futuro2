@@ -292,11 +292,11 @@ $(document).ready(function(){
 
 		//BIKES
 		var fotosBike = [
-			"images/photo/01bike.jpg",
-			"images/photo/02bike.jpg",
-			"images/photo/03bike.jpg",
-			"images/photo/04bike.jpg",
-			"images/photo/05bike.jpg"
+			"https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/photo/01bike.jpg",
+			"https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/photo/02bike.jpg",
+			"https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/photo/03bike.jpg",
+			"https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/photo/04bike.jpg",
+			"https://raw.githubusercontent.com/Fato-Online/brasilia-do-futuro2/develop/images/photo/05bike.jpg"
 		]
 
 		var imgsBikes = '';
