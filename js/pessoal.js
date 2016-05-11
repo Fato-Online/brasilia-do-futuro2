@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 	$('.btn-access').click(function(event) {
 		$("body,html").animate({
-			scrollTop: $("#turismo").offset().top
+			scrollTop: $("#jovem").offset().top
 		}, 2000,"easeInOutQuint");
 	});
 
@@ -54,6 +54,12 @@ $(document).ready(function(){
 	$('#proximo-04').click(function(event) {
 		$("body,html").animate({
 			scrollTop: $("#turismo").offset().top
+		}, 2000,"easeInOutQuint");
+	});
+
+	$('#proximo-05').click(function(event) {
+		$("body,html").animate({
+			scrollTop: $("#jovem").offset().top
 		}, 2000,"easeInOutQuint");
 	});
 
@@ -306,4 +312,21 @@ $(document).ready(function(){
 			imgsBikes += "<li>"+ "<img src=" + fotosBike[fotoBike] + ">" + "</li>";
 		}
 		$(".galeriaBike").html(imgsBikes);
+
+	// JOVEM
+	$("#jovem .menu-interno li").click(function(event) {
+		if ($(window).width()<479) {
+
+		} else{
+			$("body,html").animate({
+					scrollTop: $("#jovem").offset().top
+				}, 1000,"easeInOutQuint");
+		};
+	});
+
+	$("#jovem-01").click(function(event) {
+		setTimeout(function(){
+			$("#jovem-cont-01").slideDown(400);
+		},1000);
+	});
 });
