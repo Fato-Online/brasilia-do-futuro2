@@ -329,4 +329,10 @@ $(document).ready(function(){
 			$("#jovem-cont-01").slideDown(400);
 		},1000);
 	});
+
+	$("#jovem-02").click(function(event) {
+		setTimeout(function(){
+			$("#jovem-cont-02").slideDown(400);
+		},1000);
+	});
 });
